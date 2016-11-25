@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onPause() {
         super.onPause();  // Always call the superclass method first
-        EditText editTex
-        findViewById(R.id.edit_message) =
+        //EditText editText = new EditText();// = (EditText)("wasonpause");
+        //findViewById(R.id.edit_message) = editText;
     }
 
     @Override
@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();  // Always call the superclass method first
 
         // Get the Camera instance as the activity achieves full user focus
-        if (mCamera == null) {
-            initializeCamera(); // Local method to handle camera init
-        }
+        //if (mCamera == null) {
+        //    initializeCamera(); // Local method to handle camera init
+        //}
     }
 
     public void sendMessage(View view) {
